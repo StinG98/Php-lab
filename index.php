@@ -7,7 +7,7 @@
 include('header.html');
 ?>
 
-<form action="main.php" method="post">
+<form action="index.php" method="post">
 Name: <input type="text" name="name">
 <input type="submit">
 </form>
@@ -71,7 +71,7 @@ if( $file != false )
 
 ?>
 
-<form action="main.php" method="post">
+<form action="index.php" method="post">
 <?php if(isset($_POST['nameFilter'])){$nameFilter = $_POST['nameFilter'];}?>
 <input type="text" name="nameFilter" >
 <?php if(isset($_POST['startingWith'])){$startingWith = $_POST['startingWith'];}?>
