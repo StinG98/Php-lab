@@ -62,7 +62,7 @@ if( $file != false )
 <?php if(isset($_POST['nameFilter'])){$nameFilter = $_POST['nameFilter'];}?>
 <input type="text" name="nameFilter" >
 <?php if(isset($_POST['startingWith'])){$startingWith = $_POST['startingWith'];}?>
-<input type="checkbox" name="startingWith" value="TRUE"  > Only names starting with>
+<input type="checkbox" name="startingWith" value="TRUE"  > Only names starting with </input>
 <input type="submit" value ="filter">
 </form>
 
